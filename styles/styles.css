@@ -1,0 +1,47 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:400;
+}
+
+
+#container {
+    padding:0px 0px 5px 20px;
+    border: solid gray 0.5px;
+    border-radius:30px;
+}
+
+fieldset {
+    border-radius:10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    max-width:700px;
+    font-size:20px;
+}
+
+label{
+    font-size:18px;
+}
+
+legend {
+    font-size:16px;
+}
+
+label {
+    display:block;
+    margin-bottom:10px;
+}
+
+input {
+    justify-content:center;
+}
+input[type="submit"]{
+    border:solid grey 1px;
+    border-radius:5px;
+    background-color:white;
+    width:150px;
+    height:35px;
+}
